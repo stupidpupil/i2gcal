@@ -1,6 +1,9 @@
 language: ruby
 rvm:
   - 2.3.1
+addons:
+  code_climate:
+    repo_token: c2d86801ab996d658ede812de62c293406de8b8037c2bcd4caf8984e60841d08
 cache:
   - bundler
 script: bundle exec bacon -a
