@@ -13,9 +13,8 @@ class Synchrograph
   end
 
 
-  def synchronise(gcal_id, icalendar)
+  def synchronise(gcalendar, icalendar)
 
-    gcalendar = GCalendar.new(@client, gcal_id)
     ical_events = icalendar.first.events.find_all {|ie| ie.recurrence_id.nil?}
     gcal_events = gcalendar.events
 
