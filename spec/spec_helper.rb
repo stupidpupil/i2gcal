@@ -6,6 +6,6 @@ else
   SimpleCov.start
 end
 
-require 'synchrograph'
+require 'i2gcal'
 
 FIXTURES_DIR = File.expand_path('../fixtures/', __FILE__)
