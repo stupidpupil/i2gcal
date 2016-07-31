@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.version     = I2GCal::VERSION
   s.summary     = 'One-way sync an iCalendar file to Google Calendar'
   s.authors     = ['Adam Watkins']
-  s.files       = Dir['lib/**/*.rb', 'lib/i2gcal.rb', 'lib/synchrograph.rb']
+  s.files       = Dir['lib/**/*.rb', 'lib/i2gcal.rb', 'lib/synchrograph.rb', 'data/windowsZones.xml']
   s.license     = 'AGPL-3.0'
   s.homepage    = 'https://github.com/stupidpupil/i2gcal'
 
