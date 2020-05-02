@@ -6,6 +6,6 @@ group :test do
   if ENV['TRAVIS']
     gem 'codeclimate-test-reporter', require: false
   else
-    gem 'simplecov', require: false
+    gem 'simplecov', '>= 0.12.0', require: false
   end
 end
